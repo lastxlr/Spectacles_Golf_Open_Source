@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    bdfee68f-8fa0-478f-8251-0fc205096b89: 339f7164-962b-78c1-6594-3aa161423c79/a971c9d62bf31aeebeebacd3fb8ce0ba/Data/Slingshot_Wood.jpg
+  Assets:
+    - !<FileTexture/bdfee68f-8fa0-478f-8251-0fc205096b89>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 720
+        Height: 720
+  SourceHash: a971c9d62bf31aeebeebacd3fb8ce0ba
+  FileHash: 7dc6ef86e22bbc52c65915ee25c6b735
+  NativePackageItems:
+    []

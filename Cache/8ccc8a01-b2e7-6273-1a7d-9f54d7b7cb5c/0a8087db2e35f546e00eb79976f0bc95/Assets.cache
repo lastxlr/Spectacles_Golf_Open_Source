@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ee0a0d72-f2ed-4fd6-8ca0-3f1506629682: 8ccc8a01-b2e7-6273-1a7d-9f54d7b7cb5c/0a8087db2e35f546e00eb79976f0bc95/Data/Direction_Arrow.png
+  Assets:
+    - !<FileTexture/ee0a0d72-f2ed-4fd6-8ca0-3f1506629682>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 0a8087db2e35f546e00eb79976f0bc95
+  FileHash: 8d77aa1acd6ed9c0e2c8a8fe5bf5acb0
+  NativePackageItems:
+    []

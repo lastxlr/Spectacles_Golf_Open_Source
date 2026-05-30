@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0f29efda-db0e-42ca-9d7f-fb690e191f86: 551f1770-7619-fd78-3b64-eca3d521888a/18d1c61581948c88bf7173e73c293100/Data/Ball.jpg
+  Assets:
+    - !<FileTexture/0f29efda-db0e-42ca-9d7f-fb690e191f86>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 720
+        Height: 720
+  SourceHash: 18d1c61581948c88bf7173e73c293100
+  FileHash: aa6b0e435820a5a1dcb29b86be09c977
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    636b479f-9b9b-44a8-be84-9a12e550c139: 99736a49-2f6c-430a-b4ed-ea8655c80678/02dc1e2dff66d9b33f46136a70c663a6/Data/Floor_Hole.mesh
+  Assets:
+    - !<FileMesh/636b479f-9b9b-44a8-be84-9a12e550c139>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 40
+        Vertices: 40
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 28.206078, y: 25.379999, z: 6.345000}
+  SourceHash: 02dc1e2dff66d9b33f46136a70c663a6
+  FileHash: 1f1ec2d221688b3046338316c73bd3e6
+  NativePackageItems:
+    []

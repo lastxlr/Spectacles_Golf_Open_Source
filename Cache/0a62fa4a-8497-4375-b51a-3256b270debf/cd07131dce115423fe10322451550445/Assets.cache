@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    da61484d-eac9-4f98-b999-6ae8a37b178b: 0a62fa4a-8497-4375-b51a-3256b270debf/cd07131dce115423fe10322451550445/Data/Aiming.mp3
+  Assets:
+    - !<FileAudioTrack/da61484d-eac9-4f98-b999-6ae8a37b178b>
+      PackagePath: ""
+  SourceHash: cd07131dce115423fe10322451550445
+  FileHash: 1ef681f0af5990f04011a6a38cf361e9
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    416e3dce-5af5-496a-8b9b-9640ff44e588: c5c8597e-29c5-4be6-b6da-afecaf1c1a60/562d0a9376f67b5e3baf3383164ad4e3/Data/Out Of Bounds.mp3
+  Assets:
+    - !<FileAudioTrack/416e3dce-5af5-496a-8b9b-9640ff44e588>
+      PackagePath: ""
+  SourceHash: 562d0a9376f67b5e3baf3383164ad4e3
+  FileHash: bf6f59ce6f421793bcc38e6f52e8014f
+  NativePackageItems:
+    []

@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    79e29799-8822-4c27-95fc-3ebfab09a505: 8f065588-682d-1d0f-7e3c-ba1bdc7b66f3/48664b627e0f709b9f99892a7aa0a707/Data/OOB Zap.t3d
+    d78cd45a-64e0-405b-83dd-5498f0f0daa5: 8f065588-682d-1d0f-7e3c-ba1bdc7b66f3/48664b627e0f709b9f99892a7aa0a707/Data/atlas_0.png
+  Assets:
+    - !<AnimatedTexture/79e29799-8822-4c27-95fc-3ebfab09a505>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 0.500000
+            value: 12
+      ReverseSupported: true
+      FrameSize: {x: 258, y: 256}
+      AnimationSequences:
+        default: 12
+      AutoPlay: false
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/d78cd45a-64e0-405b-83dd-5498f0f0daa5>
+      PackagePath: atlas_0.png
+      FileInfo: !<FileTextureInfo>
+        Width: 774
+        Height: 1024
+  SourceHash: 48664b627e0f709b9f99892a7aa0a707
+  FileHash: a945cc545e768cb05207b0c6ad99329d
+  NativePackageItems:
+    []

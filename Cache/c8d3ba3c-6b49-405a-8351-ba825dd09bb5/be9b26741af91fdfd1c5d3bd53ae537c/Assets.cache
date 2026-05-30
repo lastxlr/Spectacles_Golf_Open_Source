@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    56654825-560b-42fe-8005-2b09dd14331f: c8d3ba3c-6b49-405a-8351-ba825dd09bb5/be9b26741af91fdfd1c5d3bd53ae537c/Data/Made.otf
+  Assets:
+    - !<Font/56654825-560b-42fe-8005-2b09dd14331f>
+      PackagePath: ""
+  SourceHash: be9b26741af91fdfd1c5d3bd53ae537c
+  FileHash: eec6674cf1b326cc91d6511f22aa029e
+  NativePackageItems:
+    []

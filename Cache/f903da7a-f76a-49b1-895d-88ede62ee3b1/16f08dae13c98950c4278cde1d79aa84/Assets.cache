@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    91c1d7e6-aeff-4f9a-abcb-bd778653f5db: f903da7a-f76a-49b1-895d-88ede62ee3b1/16f08dae13c98950c4278cde1d79aa84/Data/Flag1.mesh
+  Assets:
+    - !<FileMesh/91c1d7e6-aeff-4f9a-abcb-bd778653f5db>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 158
+        Vertices: 156
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.540316, y: 41.024052, z: 17.867102}
+  SourceHash: 16f08dae13c98950c4278cde1d79aa84
+  FileHash: a57ac3def2ddfe9e232dd238af29c26e
+  NativePackageItems:
+    []

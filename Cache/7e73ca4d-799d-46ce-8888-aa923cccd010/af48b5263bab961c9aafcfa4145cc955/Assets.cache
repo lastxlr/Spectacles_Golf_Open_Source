@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2f1064f9-b7f4-4d54-93ce-e179d78a5c71: 7e73ca4d-799d-46ce-8888-aa923cccd010/af48b5263bab961c9aafcfa4145cc955/Data/transparent.png
+  Assets:
+    - !<FileTexture/2f1064f9-b7f4-4d54-93ce-e179d78a5c71>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1
+        Height: 1
+  SourceHash: af48b5263bab961c9aafcfa4145cc955
+  FileHash: 3ee9673e861971726880d172a55ddbae
+  NativePackageItems:
+    []

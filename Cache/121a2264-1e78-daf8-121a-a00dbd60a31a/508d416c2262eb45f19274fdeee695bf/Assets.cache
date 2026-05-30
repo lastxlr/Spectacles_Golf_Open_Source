@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d67fc968-a558-4e68-9296-40695f30a6e6: 121a2264-1e78-daf8-121a-a00dbd60a31a/508d416c2262eb45f19274fdeee695bf/Data/GrabCube.png
+  Assets:
+    - !<FileTexture/d67fc968-a558-4e68-9296-40695f30a6e6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 600
+        Height: 600
+  SourceHash: 508d416c2262eb45f19274fdeee695bf
+  FileHash: ae54eeb54681326569d35ceda9f5c928
+  NativePackageItems:
+    []

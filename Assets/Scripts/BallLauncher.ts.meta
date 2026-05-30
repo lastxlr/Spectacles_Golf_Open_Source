@@ -1,0 +1,120 @@
+- !<AssetImportMetadata/52ac8746-b8b7-4ac8-8b9a-9195cfbc0c74>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 990d450d-356a-43e2-9d89-46dbcd062c09
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 990d450d-356a-43e2-9d89-46dbcd062c09
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9a7a25c9-7df4-406d-a340-55a57a3d1f22
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9a7a25c9-7df4-406d-a340-55a57a3d1f22>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1f92dfc0-57f0-480b-b559-f3fdabf914ba
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    arrowObject: false
+    debugMode: false
+    enableTrail: false
+    grabRadius: false
+    launchForceMultiplier: false
+    maxPullDistance: false
+    maxScreenPull: false
+    outOfBoundsEffect: false
+    outOfBoundsSound: false
+    outOfBoundsTriggers: false
+    powerBarObject: false
+    releaseStrongSound: false
+    releaseWeakSound: false
+    simulatorCamera: false
+    simulatorMode: false
+    slingBase: false
+    slingPart: false
+    stopThreshold: false
+    stretchSound: false
+    trailColor: false
+    trailLength: false
+    trailMaterial: false
+    trailObject: false
+    trailUpdateInterval: false
+    trailWidth: false
+    wallHitSound: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - maxPullDistance: !<float> 15.000000
+      launchForceMultiplier: !<float> 150.000000
+      grabRadius: !<float> 6.000000
+      stopThreshold: 0.400000
+      slingBase: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      slingPart: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      arrowObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      powerBarObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      outOfBoundsEffect: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      outOfBoundsTriggers: !<reference.ColliderComponent[]>
+        []
+      outOfBoundsSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      wallHitSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      stretchSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      releaseWeakSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      releaseStrongSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      enableTrail: true
+      trailObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trailMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      trailColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      trailWidth: !<float> 3.000000
+      trailLength: !<float> 20.000000
+      trailUpdateInterval: !<float> 2.000000
+      simulatorMode: false
+      simulatorCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      maxScreenPull: 0.150000
+      debugMode: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float maxPullDistance = 15 {"hint":"How much user needs to pull to charge max force"}'
+    - '// @input float launchForceMultiplier = 150 {"hint":"Strike force multiplier: higher valuer -> higher ball speed after hit"}'
+    - '// @input float grabRadius = 6 {"hint":"Distance from the ball where pinch is registered to start aiming"}'
+    - "// @input float stopThreshold = 0.4 {\"hint\":\"If ball's speed drops lower than that value the ball stops\"}"
+    - '// @input SceneObject slingBase {"hint":"Base of the slingshot. Must be a sibling of the ball to work properly"}'
+    - "// @input SceneObject slingPart {\"hint\":\"Sling object of the slingshot. Must be a slingbase's child to work properly\"}"
+    - "// @input SceneObject arrowObject {\"hint\":\"SceneObject for showing the direction of the hit. Must be slingbase's child to work properly\"}"
+    - "// @input SceneObject powerBarObject {\"hint\":\"SceneObject showing strength of the hit during aiming. Must be slingbase's child to work properly\"}"
+    - '// @input SceneObject outOfBoundsEffect {"hint":"SceneObject with out of bounds animated texture. Played once the ball goes out of bounds. MUST have material with animated texture"}'
+    - '// @input Component.ColliderComponent[] outOfBoundsTriggers = {} {"hint":"Collider components of the borders. If ball hits those it is considered out of bounds"}'
+    - '// @input Component.AudioComponent outOfBoundsSound {"hint":"Sound effect played when ball goes out of bounds"}'
+    - '// @input Component.AudioComponent wallHitSound {"hint":"Sound effect played when ball hits vertical surface"}'
+    - '// @input Component.AudioComponent stretchSound {"hint":"Sound effect played when sling is stretched during aiming"}'
+    - '// @input Component.AudioComponent releaseWeakSound {"hint":"Sound effect played when ball is hit with up to 85% strength"}'
+    - '// @input Component.AudioComponent releaseStrongSound {"hint":"Sound effect played when ball is hit with >85% strength"}'
+    - '// @input boolean enableTrail = true {"hint":"Enable trail building of the ball during movement"}'
+    - '// @input SceneObject trailObject {"hint":"Empty SceneObject which helps to build top and bottom verticies of the trail. MUST be a sibling of LevelConatainer and must be in (0, 0, 0) position to work properly", "showIf":"enableTrail"}'
+    - '// @input Asset.Material trailMaterial {"hint":"Material which will be assigned to trail", "showIf":"enableTrail"}'
+    - '// @input vec4 trailColor = "{1, 1, 1, 1}" {"widget":"color", "showIf":"enableTrail"}'
+    - '// @input float trailWidth = 3 {"showIf":"enableTrail"}'
+    - '// @input float trailLength = 20 {"showIf":"enableTrail"}'
+    - '// @input float trailUpdateInterval = 2 {"hint":"The trail will be build every N frame. Helps with performance", "showIf":"enableTrail"}'
+    - '// @input boolean simulatorMode {"hint":"Enables mouse input similation for development and testing in Lens Studio preview"}'
+    - '// @input Component.Camera simulatorCamera {"hint":"Camera from the scene used to translate screen input for mouse input simulation", "showIf":"simulatorMode"}'
+    - '// @input float maxScreenPull = 0.15 {"hint":"How much do you need to pull with the mouse to charge max force", "showIf":"simulatorMode"}'
+    - '// @input boolean debugMode {"hint":"Enables debug pring messages in the console"}'

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    d393ce04-ca22-4e47-95de-c730a4b9733e: ad986bcc-a55e-4b27-a87b-6c31d6e6a035/0f34de1f700b1d37e4611fb9a8db9700/Data/Hole Hit.mp3
+  Assets:
+    - !<FileAudioTrack/d393ce04-ca22-4e47-95de-c730a4b9733e>
+      PackagePath: ""
+  SourceHash: 0f34de1f700b1d37e4611fb9a8db9700
+  FileHash: fa623e641734ebe815c72d7526afd6f5
+  NativePackageItems:
+    []

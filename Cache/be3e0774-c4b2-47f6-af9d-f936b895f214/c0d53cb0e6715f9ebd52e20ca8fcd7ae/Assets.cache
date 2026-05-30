@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3abe5268-f5c2-4a80-896e-552cbb4a03ad: be3e0774-c4b2-47f6-af9d-f936b895f214/c0d53cb0e6715f9ebd52e20ca8fcd7ae/Data/TrapCover.mesh
+  Assets:
+    - !<FileMesh/3abe5268-f5c2-4a80-896e-552cbb4a03ad>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 29.030733, y: 30.827131, z: 4.458508}
+  SourceHash: c0d53cb0e6715f9ebd52e20ca8fcd7ae
+  FileHash: d2b225af84bc0b1c366fbda61b290052
+  NativePackageItems:
+    []

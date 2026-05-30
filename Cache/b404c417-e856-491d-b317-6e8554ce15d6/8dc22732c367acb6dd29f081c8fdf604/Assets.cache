@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    8e5833e8-f551-41ce-893b-241e7398e09d: b404c417-e856-491d-b317-6e8554ce15d6/8dc22732c367acb6dd29f081c8fdf604/Data/Cube_3.mesh
+  Assets:
+    - !<FileMesh/8e5833e8-f551-41ce-893b-241e7398e09d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 16.303467, y: 22.037329, z: 6.006877}
+  SourceHash: 8dc22732c367acb6dd29f081c8fdf604
+  FileHash: 277c51d807a553fee665b53606cffd3a
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    be73a701-4236-42d2-939c-ec07e2ba831a: 5f93667b-b230-45bb-99c4-7803f07ca444/2d44f1127211d01f021dc59146ade4d4/Data/Sling.mesh
+  Assets:
+    - !<FileMesh/be73a701-4236-42d2-939c-ec07e2ba831a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 416
+        Vertices: 281
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 48.601364, y: 10.985573, z: 92.246124}
+  SourceHash: 2d44f1127211d01f021dc59146ade4d4
+  FileHash: 4a94a053d323e1956c21f93ad31e21b7
+  NativePackageItems:
+    []

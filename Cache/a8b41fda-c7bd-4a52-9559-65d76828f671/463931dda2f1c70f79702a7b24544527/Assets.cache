@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e21cff23-28c5-4229-bc83-4c2ecf98049d: a8b41fda-c7bd-4a52-9559-65d76828f671/463931dda2f1c70f79702a7b24544527/Data/Flag_Trigger.mesh
+  Assets:
+    - !<FileMesh/e21cff23-28c5-4229-bc83-4c2ecf98049d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 23.713293, y: 23.713293, z: 23.713293}
+  SourceHash: 463931dda2f1c70f79702a7b24544527
+  FileHash: 1fb026e2589f2026c37dd6495d7db6a9
+  NativePackageItems:
+    []

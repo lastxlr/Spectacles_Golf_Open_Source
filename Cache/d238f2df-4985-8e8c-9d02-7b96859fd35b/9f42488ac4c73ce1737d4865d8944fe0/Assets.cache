@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    080b0678-384c-43be-9064-a50dcb353181: d238f2df-4985-8e8c-9d02-7b96859fd35b/9f42488ac4c73ce1737d4865d8944fe0/Data/Matcap_Green.jpg
+  Assets:
+    - !<FileTexture/080b0678-384c-43be-9064-a50dcb353181>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 9f42488ac4c73ce1737d4865d8944fe0
+  FileHash: 98cb90cf869fac844da68b2c46039be4
+  NativePackageItems:
+    []

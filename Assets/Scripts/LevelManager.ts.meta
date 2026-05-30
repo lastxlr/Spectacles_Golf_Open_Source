@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/9b3adfe1-9bc7-48b1-9170-0c2491669a55>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c369b892-9665-4559-a1b5-75fcca0663dc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c369b892-9665-4559-a1b5-75fcca0663dc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 07964e64-b9a1-4c7b-b0a1-f3eac8266b05
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/07964e64-b9a1-4c7b-b0a1-f3eac8266b05>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0af99a7f-b3c2-4243-b4a6-4d43691e3d09
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    ballLauncherComponent: false
+    board: false
+    levelPrefabs: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - levelPrefabs: !<reference.ObjectPrefab[]>
+        []
+      ballLauncherComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      board: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.ObjectPrefab[] levelPrefabs = {} {"hint":"Prefabs of the levels. MUST be at least one, max count is not limited. IMPORTANT: Check REAMDE (child of LevelContainer)"}'
+    - '// @input Component.ScriptComponent ballLauncherComponent {"hint":"ballLauncher script component from the scene. IMPORTANT: Check REAMDE (child of LevelContainer)"}'
+    - '// @input SceneObject board {"hint":"Level_Info_Frame object from the scene. IMPORTANT: Check REAMDE (child of LevelContainer)"}'

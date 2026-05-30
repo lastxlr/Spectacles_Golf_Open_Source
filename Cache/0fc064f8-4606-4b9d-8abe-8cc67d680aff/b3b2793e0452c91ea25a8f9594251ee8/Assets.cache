@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    b8f45f1e-f140-4d06-ae43-9e257fa3a6b9: 0fc064f8-4606-4b9d-8abe-8cc67d680aff/b3b2793e0452c91ea25a8f9594251ee8/Data/Bridge.mesh
+  Assets:
+    - !<FileMesh/b8f45f1e-f140-4d06-ae43-9e257fa3a6b9>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 157.998749, y: 51.104496, z: 6.628630}
+  SourceHash: b3b2793e0452c91ea25a8f9594251ee8
+  FileHash: 816a42783ab736202e6c5287c3314fad
+  NativePackageItems:
+    []

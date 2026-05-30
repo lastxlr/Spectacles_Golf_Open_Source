@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    590016ec-c8a4-44a8-9fd5-256bd6da4a24: 4a2bb0db-4b7d-4a84-8411-f096814dcb8c/35a5567527b6d7c3c5121752f6692620/Data/Ball.mesh
+  Assets:
+    - !<FileMesh/590016ec-c8a4-44a8-9fd5-256bd6da4a24>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 960
+        Vertices: 559
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.500000, y: 2.500000, z: 2.500000}
+  SourceHash: 35a5567527b6d7c3c5121752f6692620
+  FileHash: efc71f9ea12c36d7d070e0356b7fa9da
+  NativePackageItems:
+    []

@@ -1,0 +1,1462 @@
+- !<AssetImportMetadata/297baf50-247a-4e0a-962d-ae8aedb4d56c>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 472572a5-56a9-45e6-95fe-d50938036e56
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 472572a5-56a9-45e6-95fe-d50938036e56
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 8643ea91-c647-4e74-9764-78213382c5b0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0397fc36-f4a5-4b18-638e-83f4be05a7e6>
+  PrefabRemaps:
+    []
+  Name: Level2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d90a0d11-2b02-4bfd-57c1-1c107d4b76e6
+    - !<own> aa59640b-3009-44a0-41f2-14ca61d67073
+    - !<own> b6fd5d4c-3f48-4fa9-411d-626d3ff90f6c
+    - !<own> e20f4558-e465-4000-84eb-9c88d35d29f7
+    - !<own> 7c082d6b-fa79-4213-724b-f4ebaae90b1d
+    - !<own> 6620f2cf-0780-408c-497a-ad216ee6227d
+    - !<own> b165f63c-48cd-4bbd-5f26-b6f8d2e1b7fb
+    - !<own> a758da91-6dc5-4d1c-6c28-3c1961963d68
+    - !<own> 14377cc6-94d3-423d-4190-c89e36e2ae04
+    - !<own> b009e417-88e9-4420-6cde-e7748b7c469d
+    - !<own> e9cb139f-2e56-4594-74ad-047262e279d4
+    - !<own> 379bc0e7-f4c1-40a6-5d5e-f8877f0c5878
+    - !<own> 6dc39370-0ee3-4de1-4bba-8dffd038f859
+    - !<own> dcf61c28-ff7f-4e0b-4ead-aa55013d7ba7
+  Components:
+    []
+- !<ColliderComponent/087e7fa6-bcdd-4c50-9020-bf2a133953ee>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/0fe24d7b-789d-4399-9398-bb997dbce8f3>
+  PrefabRemaps:
+    []
+  Name: FlagController
+  Enabled: true
+  ScriptAsset: !<reference> be2161fb-4ca9-4209-8264-cf83b64a40c7
+  ScriptInputsDefault:
+    lerpSpeed: true
+    lerpThreshold: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      lerpSpeed: !<float> 3.000000
+      loweredY: -1.608200
+      raisedY: !<float> 12.000000
+      lerpThreshold: 0.100000
+      triggerCollider: !<reference.ColliderComponent> d5f37fae-c1d4-4c6b-8e6f-5e947df6ab31
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/1207ce64-2a94-44c6-a75f-5da6a1935166>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/14377cc6-94d3-423d-4190-c89e36e2ae04>
+  PrefabRemaps:
+    []
+  Name: Hole_Trigger
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 45.507336, y: -4.747233, z: 73.651146}
+    Rotation: {x: -180.000000, y: -0.000000, z: -180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3b91e272-95f6-4245-59c2-11b454595ffd
+    - !<own> 2e67546d-d985-480d-917a-404b6926ac98
+    - !<own> ed1c1fd1-5006-4816-a6ed-71c23d472544
+- !<RenderMeshVisual/1db995ba-7667-4a08-5c18-63b0381096b0>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 87241154-86aa-4ee8-8ec8-2da6e6e2f530
+  Mesh: !<reference> 67561682-91d2-4960-9f92-ae5a950fd7f8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/1e769522-e7bc-4afa-69fa-c51385960c9d>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> 6088f284-73fd-4592-bcb1-d56699ae9239
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/236e8386-17ba-4749-a20a-fa0539c456cd>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> 2fea6c83-8a69-419f-a601-967a6f8cbbd6
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ColliderComponent/2e67546d-d985-480d-917a-404b6926ac98>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 457114ea-97f8-4d6b-952c-0f10cf93d1a2
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/30a0b104-9585-495b-5298-f87fa41d89c8>
+  PrefabRemaps:
+    []
+  Name: Cube_3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 22.300154, z: 12.875000}
+    Rotation: {x: 180.000000, y: 60.000015, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ee7dea49-faa2-4fdd-7f11-c43f18e35653
+    - !<own> 087e7fa6-bcdd-4c50-9020-bf2a133953ee
+- !<ColliderComponent/33c8fb37-7d07-40fb-b3e9-6a3b2e1ea3fd>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/3519ff88-c0bf-4ff0-7a88-9ea41a634b2d>
+  PrefabRemaps:
+    []
+  Name: Cube_4
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 8.807018, z: 24.197084}
+    Rotation: {x: -180.000000, y: 20.000000, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1e769522-e7bc-4afa-69fa-c51385960c9d
+    - !<own> ea114dfe-5769-438b-8a43-4681c2ad1d3d
+- !<SceneObject/379bc0e7-f4c1-40a6-5d5e-f8877f0c5878>
+  PrefabRemaps:
+    []
+  Name: Bridge
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 3.854729, y: -1.369809, z: -33.406246}
+    Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.350000, y: 0.350000, z: 0.350000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cec3dea5-ecc8-4732-530d-829332181e0f
+    - !<own> 7d8428aa-59aa-4a46-8a1e-031ceec2513d
+    - !<own> ef8d64ee-8e83-474a-8e42-549fb068538a
+- !<ColliderComponent/3825458a-6660-4146-9512-66b91ba758a4>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/3b91e272-95f6-4245-59c2-11b454595ffd>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> e4bfaeb9-cef2-4dd2-a4f7-19d1250c33a9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/425c798b-3bb5-4182-65c6-73d5293bfafc>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> c582373e-952c-42d8-adc1-a300089f05e2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4b6da926-b5fe-4e35-6717-fe24753b8751>
+  PrefabRemaps:
+    []
+  Name: Plank2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: 72.998268, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 65bdcf4d-37a5-41cf-64c0-70667d8e27d6
+    - !<own> d9b4944d-20de-46d9-9cd7-2be1604ba796
+- !<RenderMeshVisual/4d67e190-820e-4394-6f20-048e59b383ec>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> db83c71b-7ac4-437a-91cd-9683c715d0f0
+  Mesh: !<reference> 2fea6c83-8a69-419f-a601-967a6f8cbbd6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/52eaa6cd-0219-4d01-9d18-1a0e380ca2b4>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/5a2b280e-7bc1-433c-531d-1be960501191>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> a6f53df8-b3ef-4e14-8c38-41cef4b99dec
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5ac4f45c-ea6c-40ef-71f5-db16632bd650>
+  PrefabRemaps:
+    []
+  Name: Cube_8
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -16.551781, z: -19.725645}
+    Rotation: {x: 0.000000, y: -40.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bdec5d1d-0939-451c-689c-71caeff60267
+    - !<own> 33c8fb37-7d07-40fb-b3e9-6a3b2e1ea3fd
+- !<ColliderComponent/5fbda5d6-070c-42b5-9c62-03676ab1216b>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 457114ea-97f8-4d6b-952c-0f10cf93d1a2
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/653d58fb-0c67-453b-65d0-c67554298804>
+  PrefabRemaps:
+    []
+  Name: Cube_9
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -25.750000}
+    Rotation: {x: -0.000000, y: 0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 425c798b-3bb5-4182-65c6-73d5293bfafc
+    - !<own> 7ddd7a91-6def-43b4-a95d-cda9e8c527b3
+- !<RenderMeshVisual/65bdcf4d-37a5-41cf-64c0-70667d8e27d6>
+  PrefabRemaps:
+    []
+  Name: component_19
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> 85fce0af-1238-4e82-9388-dc268c7cda78
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6620f2cf-0780-408c-497a-ad216ee6227d>
+  PrefabRemaps:
+    []
+  Name: Flag_Trigger
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 45.507336, y: 6.169553, z: 76.819183}
+    Rotation: {x: -180.000000, y: -0.000000, z: -180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6d28b7fe-b844-4e90-7aed-6be7ee3cf210
+    - !<own> d5f37fae-c1d4-4c6b-8e6f-5e947df6ab31
+- !<RenderMeshVisual/691df57f-8519-46a7-67a9-5f5d1a9579ce>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0d963631-492d-4f5c-a923-bfa25e7cf8be
+  Mesh: !<reference> 40767190-c30a-429e-96af-01c157ce8a54
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/6d28b7fe-b844-4e90-7aed-6be7ee3cf210>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> e21cff23-28c5-4229-bc83-4c2ecf98049d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6dc39370-0ee3-4de1-4bba-8dffd038f859>
+  PrefabRemaps:
+    []
+  Name: Floor_2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 45.793289, y: -3.695694, z: -14.913860}
+    Rotation: {x: -90.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 0.350000, y: 0.350000, z: 0.350000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fc3716b6-3c3f-41d0-7c11-7338d3744028
+    - !<own> a3f85802-258c-4cf2-9563-4cfcdcb8944f
+- !<ColliderComponent/6e5b50a4-f208-4d4a-a107-3c18099b0957>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> 67561682-91d2-4960-9f92-ae5a950fd7f8
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 457114ea-97f8-4d6b-952c-0f10cf93d1a2
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/7086e800-4fe9-468d-7111-872a67e18776>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> 711c22a1-f718-49cd-9d0b-74627f3cd5c9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/73878cea-3835-4409-6576-3f55325b6d1c>
+  PrefabRemaps:
+    []
+  Name: Cube_6
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: -22.300154, z: 12.875000}
+    Rotation: {x: -180.000000, y: -60.000015, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f000bad3-5999-4758-5415-16c80bf206db
+    - !<own> 8c74084f-17c8-4ee1-9681-2a00baf7f0e0
+- !<RenderMeshVisual/73d22b70-f021-43e3-4889-e974efab22d8>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> 895b4581-a4d9-4a87-98a7-f05d8e51f7bb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7c082d6b-fa79-4213-724b-f4ebaae90b1d>
+  PrefabRemaps:
+    []
+  Name: Floor_Hole
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 45.802219, y: -3.969674, z: 87.588615}
+    Rotation: {x: -90.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4d67e190-820e-4394-6f20-048e59b383ec
+    - !<own> 1db995ba-7667-4a08-5c18-63b0381096b0
+    - !<own> 6e5b50a4-f208-4d4a-a107-3c18099b0957
+    - !<own> 236e8386-17ba-4749-a20a-fa0539c456cd
+- !<ColliderComponent/7d8428aa-59aa-4a46-8a1e-031ceec2513d>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ColliderComponent/7ddd7a91-6def-43b4-a95d-cda9e8c527b3>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ObjectPrefabAssetData/8643ea91-c647-4e74-9764-78213382c5b0>
+  Prototype: !<ObjectOwner/262cc925-4a03-4786-8c2f-ae72784aa1b0>
+    PackagePath: ""
+    objects:
+      - !<own> 0397fc36-f4a5-4b18-638e-83f4be05a7e6
+- !<ColliderComponent/8c74084f-17c8-4ee1-9681-2a00baf7f0e0>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/93318ac6-bb10-4f53-575c-acf29e7ae291>
+  PrefabRemaps:
+    []
+  Name: Cube_1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 16.551781, z: -19.725645}
+    Rotation: {x: -0.000000, y: 40.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fe954438-37c7-4186-6c95-b748db121dae
+    - !<own> 985a0926-03f6-439d-8166-1df997c0e13f
+- !<ColliderComponent/985a0926-03f6-439d-8166-1df997c0e13f>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/990659dc-b9ca-44ad-55e9-b7dab4a2cbfa>
+  PrefabRemaps:
+    []
+  Name: component_20
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 87241154-86aa-4ee8-8ec8-2da6e6e2f530
+  Mesh: !<reference> 9b531b43-cf2d-4270-834c-1d6cc6c4f4e3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/9e954f20-99ad-48be-65c1-e53213c6a71d>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f4e70720-30ee-4676-a957-56af4d1ef23d
+  Mesh: !<reference> c5a4e054-933d-4be1-8f60-132f3381b4eb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/9ee35d52-74a5-474b-4c06-cb9a4681ef53>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> 4af2c6ff-2f41-4123-8cfe-467f7c2946ba
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/9f646410-2575-424c-67fc-1b22e708fd48>
+  PrefabRemaps:
+    []
+  Name: component_18
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> feffda3f-d3d7-48d8-9880-bf1e2a393e9d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a183c3e4-2725-430f-79d8-ca62f2088613>
+  PrefabRemaps:
+    []
+  Name: Plank1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: -17.001755, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9f646410-2575-424c-67fc-1b22e708fd48
+    - !<own> 3825458a-6660-4146-9512-66b91ba758a4
+- !<ColliderComponent/a3f85802-258c-4cf2-9563-4cfcdcb8944f>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 457114ea-97f8-4d6b-952c-0f10cf93d1a2
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ColliderComponent/a4eeedfc-5c3a-462e-954d-f896fbb5cdd2>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/a758da91-6dc5-4d1c-6c28-3c1961963d68>
+  PrefabRemaps:
+    []
+  Name: Hole_VFX
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 45.507336, y: 6.169553, z: 73.651146}
+    Rotation: {x: -180.000000, y: -0.000000, z: -180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9e954f20-99ad-48be-65c1-e53213c6a71d
+- !<SceneObject/aa59640b-3009-44a0-41f2-14ca61d67073>
+  PrefabRemaps:
+    []
+  Name: BoardPosition
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.220506, y: 6.136196, z: -82.510445}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/ab9e97a3-20c7-4473-a5bb-3d08fa5f1b2a>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0d963631-492d-4f5c-a923-bfa25e7cf8be
+  Mesh: !<reference> 91d44782-b5f5-498b-9421-9d10c68bab75
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b009e417-88e9-4420-6cde-e7748b7c469d>
+  PrefabRemaps:
+    []
+  Name: Waterwheel
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 47.981930, y: 23.591080, z: 40.103943}
+    Rotation: {x: -90.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 653d58fb-0c67-453b-65d0-c67554298804
+    - !<own> 5ac4f45c-ea6c-40ef-71f5-db16632bd650
+    - !<own> e00daca6-e63d-4dd2-7b06-9e6a0263020b
+    - !<own> 73878cea-3835-4409-6576-3f55325b6d1c
+    - !<own> b7d31455-dab7-4cc3-455c-fe373654ace8
+    - !<own> 3519ff88-c0bf-4ff0-7a88-9ea41a634b2d
+    - !<own> 30a0b104-9585-495b-5298-f87fa41d89c8
+    - !<own> e1c0ebfb-f59f-4512-72c7-b7b70b70997e
+    - !<own> 93318ac6-bb10-4f53-575c-acf29e7ae291
+    - !<own> a183c3e4-2725-430f-79d8-ca62f2088613
+    - !<own> 4b6da926-b5fe-4e35-6717-fe24753b8751
+  Components:
+    - !<own> d020cb4e-7417-487d-930a-ecbdd959b619
+- !<RenderMeshVisual/b15fa5e9-5251-43db-7485-065e9097940b>
+  PrefabRemaps:
+    []
+  Name: component_23
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 87241154-86aa-4ee8-8ec8-2da6e6e2f530
+  Mesh: !<reference> 6c6405f4-01bf-42c0-9d8e-f8f43a98442c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b165f63c-48cd-4bbd-5f26-b6f8d2e1b7fb>
+  PrefabRemaps:
+    []
+  Name: Flag
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 45.507336, y: -1.608224, z: 73.646370}
+    Rotation: {x: -180.000000, y: -0.000000, z: -180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ca102737-f2a5-49a8-577e-080ba32f3c43
+    - !<own> 5a2b280e-7bc1-433c-531d-1be960501191
+    - !<own> 691df57f-8519-46a7-67a9-5f5d1a9579ce
+    - !<own> 0fe24d7b-789d-4399-9398-bb997dbce8f3
+- !<SceneObject/b6fd5d4c-3f48-4fa9-411d-626d3ff90f6c>
+  PrefabRemaps:
+    []
+  Name: Wall
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 45.517624, y: 1.253602, z: 89.143723}
+    Rotation: {x: 0.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f3c77abc-49c3-42b4-6932-36184268157b
+    - !<own> 52eaa6cd-0219-4d01-9d18-1a0e380ca2b4
+- !<SceneObject/b7d31455-dab7-4cc3-455c-fe373654ace8>
+  PrefabRemaps:
+    []
+  Name: Cube_5
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: -8.807018, z: 24.197084}
+    Rotation: {x: 180.000000, y: -20.000000, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7086e800-4fe9-468d-7111-872a67e18776
+    - !<own> e583093f-d131-4650-bb94-81f0bdc8af35
+- !<RenderMeshVisual/bdec5d1d-0939-451c-689c-71caeff60267>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> b4f049f7-7d10-41b3-b7ca-566888a00668
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ca102737-f2a5-49a8-577e-080ba32f3c43>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 27eb9e11-7ba5-4977-9b7c-bf8b836fa316
+  Mesh: !<reference> f367b0f6-1011-44cc-8323-0f1375fa73ca
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/cec3dea5-ecc8-4732-530d-829332181e0f>
+  PrefabRemaps:
+    []
+  Name: component_21
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 27eb9e11-7ba5-4977-9b7c-bf8b836fa316
+  Mesh: !<reference> b8f45f1e-f140-4d06-ae43-9e257fa3a6b9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/d020cb4e-7417-487d-930a-ecbdd959b619>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> c0359509-9eb1-4630-b6c4-e6f477d226ba
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    tweenName: true
+    playAutomatically: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 1
+      type: 2
+      movementType: 3
+      startInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 20.000000, y: 0.000000, z: 0.000000}
+      additive: true
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/d5f37fae-c1d4-4c6b-8e6f-5e947df6ab31>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<SceneObject/d90a0d11-2b02-4bfd-57c1-1c107d4b76e6>
+  PrefabRemaps:
+    []
+  Name: BallStart
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -38.692375, y: 4.358456, z: 2.280259}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<ColliderComponent/d937d98e-d630-4e51-a649-4add526da304>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ColliderComponent/d9b4944d-20de-46d9-9cd7-2be1604ba796>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/dcf61c28-ff7f-4e0b-4ead-aa55013d7ba7>
+  PrefabRemaps:
+    []
+  Name: Floor_1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -38.051197, y: -3.989180, z: -14.282187}
+    Rotation: {x: -90.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 0.350000, y: 0.350000, z: 0.350000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b15fa5e9-5251-43db-7485-065e9097940b
+    - !<own> e229292c-ada2-43a1-a752-3db3a787c167
+- !<SceneObject/e00daca6-e63d-4dd2-7b06-9e6a0263020b>
+  PrefabRemaps:
+    []
+  Name: Cube_7
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -25.358799, z: -4.471441}
+    Rotation: {x: 0.000020, y: -79.999969, z: -90.000023}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9ee35d52-74a5-474b-4c06-cb9a4681ef53
+    - !<own> d937d98e-d630-4e51-a649-4add526da304
+- !<SceneObject/e1c0ebfb-f59f-4512-72c7-b7b70b70997e>
+  PrefabRemaps:
+    []
+  Name: Cube_2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 25.358799, z: -4.471441}
+    Rotation: {x: -0.000020, y: 79.999969, z: -90.000023}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 73d22b70-f021-43e3-4889-e974efab22d8
+    - !<own> 1207ce64-2a94-44c6-a75f-5da6a1935166
+- !<SceneObject/e20f4558-e465-4000-84eb-9c88d35d29f7>
+  PrefabRemaps:
+    []
+  Name: Wall 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 58.287056, y: 1.521587, z: -20.394089}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 2.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ab9e97a3-20c7-4473-a5bb-3d08fa5f1b2a
+    - !<own> a4eeedfc-5c3a-462e-954d-f896fbb5cdd2
+- !<ColliderComponent/e229292c-ada2-43a1-a752-3db3a787c167>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 457114ea-97f8-4d6b-952c-0f10cf93d1a2
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ColliderComponent/e583093f-d131-4650-bb94-81f0bdc8af35>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/e9cb139f-2e56-4594-74ad-047262e279d4>
+  PrefabRemaps:
+    []
+  Name: Floor_3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 45.857895, y: 4.176153, z: 16.545521}
+    Rotation: {x: 126.477280, y: -0.000000, z: -180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 990659dc-b9ca-44ad-55e9-b7dab4a2cbfa
+    - !<own> 5fbda5d6-070c-42b5-9c62-03676ab1216b
+- !<ColliderComponent/ea114dfe-5769-438b-8a43-4681c2ad1d3d>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> c607e2b7-ef89-4e01-a4ed-7ebad8c1959e
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 6505f369-92fd-4e14-bac0-a4dddfc138b2
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/ed1c1fd1-5006-4816-a6ed-71c23d472544>
+  PrefabRemaps:
+    []
+  Name: HoleDetector
+  Enabled: true
+  ScriptAsset: !<reference> 871f4f89-e59b-440b-a8fb-b7c4b7979fcd
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      holeSound: !<reference.AudioComponent> 079fcda3-12a8-4d47-b66f-8558bee69b78
+      holeVFXBox: !<reference.SceneObject> a758da91-6dc5-4d1c-6c28-3c1961963d68
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/ee7dea49-faa2-4fdd-7f11-c43f18e35653>
+  PrefabRemaps:
+    []
+  Name: component_15
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> 8e5833e8-f551-41ce-893b-241e7398e09d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/ef8d64ee-8e83-474a-8e42-549fb068538a>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> c0359509-9eb1-4630-b6c4-e6f477d226ba
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    tweenName: true
+    playAutomatically: true
+    movementType: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    delay: true
+    isLocal: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 1
+      type: 2
+      movementType: 0
+      startInput: !<Vec3> {x: -90.000000, y: 0.000000, z: 0.000000}
+      endInput: !<Vec3> {x: -90.000000, y: 180.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 5.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Linear
+      easingType: InOut
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/f000bad3-5999-4758-5415-16c80bf206db>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> 6c9e2270-92f3-4cf0-b41d-51b0b782e7ee
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f3c77abc-49c3-42b4-6932-36184268157b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0d963631-492d-4f5c-a923-bfa25e7cf8be
+  Mesh: !<reference> 91d44782-b5f5-498b-9421-9d10c68bab75
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/fc3716b6-3c3f-41d0-7c11-7338d3744028>
+  PrefabRemaps:
+    []
+  Name: component_22
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 87241154-86aa-4ee8-8ec8-2da6e6e2f530
+  Mesh: !<reference> fb361298-5154-4c36-8acc-b84bf611447c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/fe954438-37c7-4186-6c95-b748db121dae>
+  PrefabRemaps:
+    []
+  Name: component_17
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c9b5f2fa-a174-4243-9883-7bc05f8a34f0
+  Mesh: !<reference> 444b00ef-e593-4458-a0a4-1329100a92b6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

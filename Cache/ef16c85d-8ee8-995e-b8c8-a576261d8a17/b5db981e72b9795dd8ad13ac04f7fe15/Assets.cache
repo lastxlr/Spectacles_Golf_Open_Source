@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    9993d7f9-53db-466a-bc11-4acdc4228cef: ef16c85d-8ee8-995e-b8c8-a576261d8a17/b5db981e72b9795dd8ad13ac04f7fe15/Data/HoleHit_VFX.t3d
+    7b5352c1-374c-46d7-a3a9-e29202dab463: ef16c85d-8ee8-995e-b8c8-a576261d8a17/b5db981e72b9795dd8ad13ac04f7fe15/Data/atlas_0.png
+  Assets:
+    - !<AnimatedTexture/9993d7f9-53db-466a-bc11-4acdc4228cef>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 0.636400
+            value: 14
+      ReverseSupported: true
+      FrameSize: {x: 266, y: 204}
+      AnimationSequences:
+        default: 14
+      AutoPlay: false
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/7b5352c1-374c-46d7-a3a9-e29202dab463>
+      PackagePath: atlas_0.png
+      FileInfo: !<FileTextureInfo>
+        Width: 798
+        Height: 1020
+  SourceHash: b5db981e72b9795dd8ad13ac04f7fe15
+  FileHash: aa85bf7d83a0404b135bb2a99e645002
+  NativePackageItems:
+    []

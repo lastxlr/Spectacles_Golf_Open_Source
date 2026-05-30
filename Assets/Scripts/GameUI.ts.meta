@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/4372c259-d75c-4bb3-b87c-f5ccbfd98c14>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4ae67a46-ab48-4ff0-9e7a-1710e8ceee6c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4ae67a46-ab48-4ff0-9e7a-1710e8ceee6c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ac00308d-c8e4-448b-87b4-204698447bc8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ac00308d-c8e4-448b-87b4-204698447bc8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 72d616cb-457e-44ca-ad4b-58a4b7bc3ca2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animSpeed: false
+    buttonObject: false
+    buttonSound: false
+    buttonText: false
+    dismissDelay: false
+    levelScoreText: false
+    messageText: false
+    panelRoot: false
+    totalScoreText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      messageText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      levelScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      totalScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      buttonText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      buttonObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      buttonSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      dismissDelay: 0.400000
+      animSpeed: !<float> 8.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject panelRoot {"hint":"Root object of the UI panel"}'
+    - "// @input Component.Text messageText {\"hint\":\"Text component of the field where 'after-level' message will be shown\"}"
+    - "// @input Component.Text levelScoreText {\"hint\":\"Text component of the field where 'after-level' current level score will be shown\"}"
+    - "// @input Component.Text totalScoreText {\"hint\":\"Text component of the field where 'after-level' current score will be shown\"}"
+    - "// @input Component.Text buttonText {\"hint\":\"Text component of the 'Next Level/Play Again' button\"}"
+    - "// @input SceneObject buttonObject {\"hint\":\"'Next Level/Play Again' button\"}"
+    - "// @input Component.AudioComponent buttonSound {\"hint\":\"Sound effect played when 'Next Level/Play Again' button is tapped\"}"
+    - "// @input float dismissDelay = 0.4 {\"hint\":\"The board will be still shown for this amount of seconds after 'Next Level/Play Again' button is tapped\"}"
+    - '// @input float animSpeed = 8 {"hint":"Speed of revealing/hiding the UI"}'

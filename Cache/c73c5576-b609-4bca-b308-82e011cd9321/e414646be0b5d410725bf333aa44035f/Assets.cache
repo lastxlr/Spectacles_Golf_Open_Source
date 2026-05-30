@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    bf48f556-068b-4267-a49c-71b8d65b30ff: c73c5576-b609-4bca-b308-82e011cd9321/e414646be0b5d410725bf333aa44035f/Data/Hole_Trigger.mesh
+  Assets:
+    - !<FileMesh/bf48f556-068b-4267-a49c-71b8d65b30ff>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.064819, y: 4.210391, z: 5.207685}
+  SourceHash: e414646be0b5d410725bf333aa44035f
+  FileHash: 41dee0e4dc8a63a22c42f8944823985c
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b5963ae5-2b9f-4b53-b9d9-f9e9711e242f: 5a1a8031-c7a0-4315-b8e3-e8d5ee805aab/415a45585d81755b7a00891aab17e309/Data/Next Button.mp3
+  Assets:
+    - !<FileAudioTrack/b5963ae5-2b9f-4b53-b9d9-f9e9711e242f>
+      PackagePath: ""
+  SourceHash: 415a45585d81755b7a00891aab17e309
+  FileHash: fef9da29c38869cdfd591e56cc5acbc3
+  NativePackageItems:
+    []

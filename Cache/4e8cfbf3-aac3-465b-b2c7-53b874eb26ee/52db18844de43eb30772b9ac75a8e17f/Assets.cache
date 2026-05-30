@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    bb8a2821-cc5a-4d18-81f1-37e7ec78f449: 4e8cfbf3-aac3-465b-b2c7-53b874eb26ee/52db18844de43eb30772b9ac75a8e17f/Data/Slingshot_base1.mesh
+  Assets:
+    - !<FileMesh/bb8a2821-cc5a-4d18-81f1-37e7ec78f449>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 480
+        Vertices: 312
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 55.951717, y: 30.349598, z: 8.577983}
+  SourceHash: 52db18844de43eb30772b9ac75a8e17f
+  FileHash: b366a95d394448399d893e516bec3393
+  NativePackageItems:
+    []

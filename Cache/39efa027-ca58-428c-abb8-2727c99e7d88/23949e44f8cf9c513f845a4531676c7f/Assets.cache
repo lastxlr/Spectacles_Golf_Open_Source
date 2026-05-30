@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b1a78e93-dfde-4be7-b46d-c748b1a09aac: 39efa027-ca58-428c-abb8-2727c99e7d88/23949e44f8cf9c513f845a4531676c7f/Data/Ball Hit Normal.mp3
+  Assets:
+    - !<FileAudioTrack/b1a78e93-dfde-4be7-b46d-c748b1a09aac>
+      PackagePath: ""
+  SourceHash: 23949e44f8cf9c513f845a4531676c7f
+  FileHash: 8e522184c12f1a3f5c714b0140deb15e
+  NativePackageItems:
+    []

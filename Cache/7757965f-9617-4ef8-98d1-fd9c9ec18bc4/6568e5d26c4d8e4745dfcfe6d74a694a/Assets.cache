@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    91d44782-b5f5-498b-9421-9d10c68bab75: 7757965f-9617-4ef8-98d1-fd9c9ec18bc4/6568e5d26c4d8e4745dfcfe6d74a694a/Data/Wall.mesh
+  Assets:
+    - !<FileMesh/91d44782-b5f5-498b-9421-9d10c68bab75>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.497156, y: 8.750000, z: 21.198814}
+  SourceHash: 6568e5d26c4d8e4745dfcfe6d74a694a
+  FileHash: 08c9e9eb09e0a52f5c0a4ba323b334c2
+  NativePackageItems:
+    []

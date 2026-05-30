@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    feffda3f-d3d7-48d8-9880-bf1e2a393e9d: 91ec6ba9-4ad2-4e54-a99a-089cfe3b53a8/37f450299c7c1c8844aca7f0497675ff/Data/Plank1.mesh
+  Assets:
+    - !<FileMesh/feffda3f-d3d7-48d8-9880-bf1e2a393e9d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 50.125381, y: 2.627277, z: 3.014199}
+  SourceHash: 37f450299c7c1c8844aca7f0497675ff
+  FileHash: 012374aec89cce9904a1462b5c694974
+  NativePackageItems:
+    []

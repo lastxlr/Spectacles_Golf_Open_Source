@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/33d542f1-b060-406f-856e-aa497ccb4d93>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5a68b35e-14b4-4053-873d-105fe7468ea4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5a68b35e-14b4-4053-873d-105fe7468ea4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 99268975-f819-4d54-ad54-ec8eb1ccba55
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/99268975-f819-4d54-ad54-ec8eb1ccba55>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 019a1ff6-71b1-4d58-89f9-26b4f6f50f94
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    alphaMax: false
+    alphaMin: false
+    alphaSpeed: false
+    ballLauncher: false
+    ballObject: false
+    handHint: false
+    indicatorColor: false
+    yOffset: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - ballLauncher: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      ballObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      yOffset: !<float> 220.000000
+      indicatorColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      alphaMin: !<float> 0.000000
+      alphaMax: 0.750000
+      alphaSpeed: 0.750000
+      handHint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.ScriptComponent ballLauncher {"hint":"BallLauncher script component from the scene"}'
+    - '// @input SceneObject ballObject {"hint":"Ball scene object"}'
+    - '// @input float yOffset = 220 {"hint":"Y-axis offset of the indicator - try different values to move indicator higher/lower"}'
+    - '// @input vec4 indicatorColor = "{1, 1, 1, 1}" {"widget":"color"}'
+    - '// @input float alphaMin {"hint":"Minimum value of the opacity for the blinking animation"}'
+    - '// @input float alphaMax = 0.75 {"hint":"Maximum value of the opacity for the blinking animation"}'
+    - '// @input float alphaSpeed = 0.75 {"hint":"Speed of the indicator blinking"}'
+    - '// @input SceneObject handHint {"hint":"Hand hint object (to destroy it after first hit)"}'

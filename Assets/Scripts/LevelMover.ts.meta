@@ -1,0 +1,80 @@
+- !<AssetImportMetadata/888bc6ab-9839-4cc2-b544-b466b26c4b6d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ce5e16b1-9a31-45ff-adf8-d6f1f3ab9413
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ce5e16b1-9a31-45ff-adf8-d6f1f3ab9413
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 272e8f8c-e5bd-4dfe-a970-81759d31dfaa
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/272e8f8c-e5bd-4dfe-a970-81759d31dfaa>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2824cf9f-5961-436e-a885-9cf4e0a98ad4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    ballLauncherComponent: false
+    ballObject: false
+    grabCube: false
+    instructionLabel: false
+    levelManagerComponent: false
+    levelRoot: false
+    moveSensitivity: false
+    rotateSensitivity: false
+    simMoveScale: false
+    simRotateScale: false
+    simulatorCamera: false
+    simulatorMode: false
+    toggleButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - toggleButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      ballLauncherComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      levelManagerComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      ballObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      levelRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      grabCube: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      instructionLabel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      moveSensitivity: !<float> 1.000000
+      rotateSensitivity: !<float> 1.000000
+      simulatorMode: false
+      simulatorCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      simMoveScale: !<float> 80.000000
+      simRotateScale: !<float> 6.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.ScriptComponent toggleButton {"hint":"Button script component of the toggle button from the scene"}'
+    - '// @input Component.ScriptComponent ballLauncherComponent {"hint":"BallLauncher script component from the scene"}'
+    - '// @input Component.ScriptComponent levelManagerComponent {"hint":"LevelManager script component from the scene"}'
+    - '// @input SceneObject ballObject {"hint":"Ball object script component from the scene"}'
+    - '// @input SceneObject levelRoot {"hint":"Root of the leve (Level_Container). This object is moved and rotated with this script"}'
+    - '// @input SceneObject grabCube {"hint":"Grab cube object: the area around the level which player uses to move-rotate level"}'
+    - '// @input SceneObject instructionLabel {"hint":"Instruction object from the scene. Appears when toggle is on"}'
+    - "// @input float moveSensitivity = 1 {\"hint\":\"Sensitivity for translating player's hand movement to amount of level move\"}"
+    - "// @input float rotateSensitivity = 1 {\"hint\":\"Sensitivity for translating player's hands movement to amount of level rotate\"}"
+    - '// @input boolean simulatorMode {"hint":"Enables testing the level in Lens Studio preview with mouse"}'
+    - '// @input Component.Camera simulatorCamera {"hint":"Camera object from which mouse movement on screen is translated to moving/rotating level", "showIf":"simulatorMode"}'
+    - '// @input float simMoveScale = 80 {"hint":"Sensitivity for translating mouse movement to amount of level move. First touch used to move, next to rotate, etc", "showIf":"simulatorMode"}'
+    - '// @input float simRotateScale = 6 {"hint":"Sensitivity for translating mouse movement to amount of level rotate. First touch used to move, next to rotate, etc", "showIf":"simulatorMode"}'

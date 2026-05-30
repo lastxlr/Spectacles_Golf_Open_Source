@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d5f46889-bf78-40b8-8d64-d7d0628c959c: 3029321c-708a-49f2-90df-98447f730ba3/69c69fb27d06e72de96fe731cbaccd1e/Data/ScriptsDependencies.jpg
+  Assets:
+    - !<FileTexture/d5f46889-bf78-40b8-8d64-d7d0628c959c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 774
+        Height: 541
+  SourceHash: 69c69fb27d06e72de96fe731cbaccd1e
+  FileHash: f0396e7b0c1a5ed67cd88df5b07cb6de
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    542d4ee0-fe88-4de2-b9b1-972664a954e5: 78f5a1d7-9249-4077-be18-7897bc22048c/498a401f995ad642c174328572fbb566/Data/Direction_arrow.mesh
+  Assets:
+    - !<FileMesh/542d4ee0-fe88-4de2-b9b1-972664a954e5>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 4
+        Vertices: 6
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 10.000000, y: 0.000000, z: 125.000000}
+  SourceHash: 498a401f995ad642c174328572fbb566
+  FileHash: ec7d69ca65a333141d4d7497c49926b3
+  NativePackageItems:
+    []

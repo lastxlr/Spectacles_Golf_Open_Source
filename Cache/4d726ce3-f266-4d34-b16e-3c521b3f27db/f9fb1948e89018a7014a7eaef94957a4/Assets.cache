@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0f69854a-9499-4bf2-a391-bcd803e6b1d3: 4d726ce3-f266-4d34-b16e-3c521b3f27db/f9fb1948e89018a7014a7eaef94957a4/Data/Trap1.mesh
+  Assets:
+    - !<FileMesh/0f69854a-9499-4bf2-a391-bcd803e6b1d3>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 115
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 28.866241, y: 12.527725, z: 28.511950}
+  SourceHash: f9fb1948e89018a7014a7eaef94957a4
+  FileHash: 86a312f4251065a95d33e487df3e2d26
+  NativePackageItems:
+    []

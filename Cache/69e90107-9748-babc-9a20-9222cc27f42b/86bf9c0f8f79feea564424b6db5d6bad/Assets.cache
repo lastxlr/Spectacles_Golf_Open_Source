@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    cde5daab-b076-4573-ad6d-8b9006349a1f: 69e90107-9748-babc-9a20-9222cc27f42b/86bf9c0f8f79feea564424b6db5d6bad/Data/Slingshot_Rope.jpg
+  Assets:
+    - !<FileTexture/cde5daab-b076-4573-ad6d-8b9006349a1f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 86bf9c0f8f79feea564424b6db5d6bad
+  FileHash: b5ebc4055a22c1451f7f2f7ad19fa622
+  NativePackageItems:
+    []

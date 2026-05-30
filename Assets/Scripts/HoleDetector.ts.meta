@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/6ca15b38-c598-48f7-9047-b87bb3a04434>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 871f4f89-e59b-440b-a8fb-b7c4b7979fcd
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 871f4f89-e59b-440b-a8fb-b7c4b7979fcd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c0767f5f-590b-4444-97cd-495af762abb0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c0767f5f-590b-4444-97cd-495af762abb0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ab51725f-38a2-4f9a-902b-eef70f06bb81
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    holeSound: false
+    holeVFXBox: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - holeSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      holeVFXBox: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.AudioComponent holeSound {"hint":"Sound effect played when ball hits the hole"}'
+    - '// @input SceneObject holeVFXBox {"hint":"SceneObject with material with animated texture (animation is played once ball hits the hole)"}'

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9b531b43-cf2d-4270-834c-1d6cc6c4f4e3: 606a3512-a1a3-426e-9938-4acd65ad95eb/0a62ba5eb8ab0c62805a17d1692de0c0/Data/Floor_3.mesh
+  Assets:
+    - !<FileMesh/9b531b43-cf2d-4270-834c-1d6cc6c4f4e3>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 26.548138, y: 16.260981, z: 2.320021}
+  SourceHash: 0a62ba5eb8ab0c62805a17d1692de0c0
+  FileHash: 0ded7b3ee65987fdbd15a39a79f84902
+  NativePackageItems:
+    []

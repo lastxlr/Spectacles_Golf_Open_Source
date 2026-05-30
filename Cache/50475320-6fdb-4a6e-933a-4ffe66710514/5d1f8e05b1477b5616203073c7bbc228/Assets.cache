@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    54370c54-4f5e-4626-8762-0e7807d412e4: 50475320-6fdb-4a6e-933a-4ffe66710514/5d1f8e05b1477b5616203073c7bbc228/Data/Ball Hit Hard.mp3
+  Assets:
+    - !<FileAudioTrack/54370c54-4f5e-4626-8762-0e7807d412e4>
+      PackagePath: ""
+  SourceHash: 5d1f8e05b1477b5616203073c7bbc228
+  FileHash: 5fb586291e9325054678eca11947ecbc
+  NativePackageItems:
+    []

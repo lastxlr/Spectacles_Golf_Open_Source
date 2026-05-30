@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    67f45129-9e61-4f18-bc37-1201eda79a42: 743469e4-f3ba-4b05-9dd5-531491fe5d2a/959d6d9f7225723d08c28a85ebaf5f31/Data/Wall Hit.mp3
+  Assets:
+    - !<FileAudioTrack/67f45129-9e61-4f18-bc37-1201eda79a42>
+      PackagePath: ""
+  SourceHash: 959d6d9f7225723d08c28a85ebaf5f31
+  FileHash: 7d44c531ff1c277196ea0a9334b05431
+  NativePackageItems:
+    []

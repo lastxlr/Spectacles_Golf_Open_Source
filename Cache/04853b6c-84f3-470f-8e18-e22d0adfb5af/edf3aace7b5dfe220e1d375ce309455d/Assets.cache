@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    1d71760e-a1eb-4b1b-ad93-375cf1209508: 04853b6c-84f3-470f-8e18-e22d0adfb5af/edf3aace7b5dfe220e1d375ce309455d/Data/Hole_VFX.mesh
+  Assets:
+    - !<FileMesh/1d71760e-a1eb-4b1b-ad93-375cf1209508>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 14.756250, y: 14.756250, z: 14.756250}
+  SourceHash: edf3aace7b5dfe220e1d375ce309455d
+  FileHash: 70c13ab43e206e0a81474748100327be
+  NativePackageItems:
+    []
