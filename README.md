@@ -32,7 +32,7 @@ The template contains several scripts which are thoroughly commented for better 
 
 ## Script Dependencies and Description
 
-![Scripts Dependencies](ScriptsDependencies.jpg)
+![Dependencies](Assets/ScriptsDependencies.jpg)
 
 ---
 
