@@ -2,7 +2,7 @@
 
 This is a project template for building your own golf-like games for Spectacles. Grab a ball with a pinch to start aiming, release to shoot the ball in the direction of the aim. The project includes a fully working game with 2 sample levels. The game is fully customizable: in the inspector you can specify a vast number of parameters – from maximum number of shots per level up to acceleration, enabling/disabling trail and its color, animation speeds, etc.
 
-Additionally, the template has a **simulator mode** which allows to test the project in Lens Preview from start to finish: all the actions are performed with the mouse in the preview window. Turn it on in the `BallLauncher` script (attached to the Ball object) and `LevelMover` script (attached to the Level_Mover object).
+Additionally, the template has a **simulator mode** which allows to test the project in Lens Preview from start to finish: all the actions are performed with the mouse in the preview window. Turn it on in the `BallLauncher` script (attached to the Ball object) and `LevelMover` script (attached to the Level_Mover object). **DON'T FORGET TO TURN SIMULATOR MODE OFF BEFORE TESTING ON SPECTACLES**, otherwise it won't work with hand interactions.
 
 The template contains several scripts which are thoroughly commented for better understanding of methods and working logic. Additionally, each script's input is provided with `@hint`s which are shown in the inspector when hovering the mouse over a parameter. So you don't even need to know how to code to understand what does what.
 
